@@ -1,0 +1,23 @@
+{
+  "name": "node-str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "mongoose": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
