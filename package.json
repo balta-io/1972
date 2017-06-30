@@ -10,12 +10,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "azure-storage": "^2.1.0",
     "body-parser": "^1.17.2",
     "debug": "^2.6.8",
     "express": "^4.15.3",
     "guid": "0.0.12",
     "http": "0.0.0",
-    "mongoose": "^4.11.0"
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.11.0",
+    "sendgrid": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
