@@ -25,7 +25,7 @@ exports.getById = async(id) => {
 }
 
 exports.getByTag = async(tag) => {
-    const res = Product
+    const res = await Product
         .find({
             tags: tag,
             active: true
